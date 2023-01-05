@@ -5,23 +5,34 @@
 # The downcase method is called on the string object "Hello World"
 # No arguments are passed; downcase has one clear job which is to lowercase all letters that exist in the String
 # The return value is "hello world"
-"Hello World".downcase
+puts "Hello World".downcase
 
 # YOU DO the rest:
 
 
-"Hello World".include?("Hello")
+p "Hello World".include?("Hello")
 
+# The include method is called on the string object "Hello World". 
+# The job of include is to ask whether or not the string includes the "Hello" anywhere in the string, then responds with a true or false
 
-"Hello World".end_with?("Hello")
+p "Hello World".end_with?("Hello")
 
+# The end_with method is called on the string object "Hello World". 
+# The job of end_with is to ask whether or not the string ends with "Hello". It does not, so it should print false.
 
 "Hello World".end_with?("rld")
 
-
-12.even?
-
-
-18.next
+# The end_with method is called on the string object "Hello World".
+# The job of end_with is to ask whether or not the string ends with "rld". It does, so it will print true.
 
 
+p 12.even?
+
+# The even method is called on the integer 12. 
+# The job of even is to ask whether or not the integer is even. It is, so it will print true
+
+
+p 18.next
+
+# The next method is called on the integer 18. 
+# The job of next is to ask what the next number will be in the sequence. This will print 19.
