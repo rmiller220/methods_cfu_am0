@@ -67,10 +67,15 @@ p "coco_11am".chr
 # Methods ending in '!' perform some permanent or potentially damaging change
 
 name = "Reilly"
+# I assigned name as a string variable
 p name.reverse
+# The reverse method will return the reverse spelling of the string, but the change is not permanent
 p name
+# This prints the string variable back to the original spelling. 
 p name.reverse!
+# This reverse! method will return the reverse spelling of the string, and the change is permanent!
 p name
+# This time when I call name, it returns the string in reverse order
 
 # This example shows how using a '!' changes the variable permanently. 
 # While this could be helpful when cementing a method, it is potentially dangerous because 
