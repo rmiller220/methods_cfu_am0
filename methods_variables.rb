@@ -52,13 +52,13 @@ p "12/09/2021".concat(' 12pm')
 
 # The concat method is called on the string "12/09/2021"
 # The job of this method is to link object to the string.
-# The return value will print the original string with the new object and display "12/09/2021 12pm"
+# The return value is the original string with the new object and display "12/09/2021 12pm"
 
 p "coco_11am".chr 
 
 # The chr method is called on the string "coco_11am"
 # The job of this method is to delete the string and return only the first charcter of the string
-# The return would print "c"
+# The return is "c"
 
 # 2: Do some research (either testing out with your own code or Googling)
 # to build an understanding of what the `!` does, when at the end of a method name. 
