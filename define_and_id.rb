@@ -13,26 +13,31 @@ puts "Hello World".downcase
 p "Hello World".include?("Hello")
 
 # The include method is called on the string object "Hello World". 
-# The job of include is to ask whether or not the string includes the "Hello" anywhere in the string, then responds with a true or false
+# The job of include is to ask whether or not the string includes the "Hello" anywhere in the string.
+# The return value responds with a true
 
 p "Hello World".end_with?("Hello")
 
 # The end_with method is called on the string object "Hello World". 
-# The job of end_with is to ask whether or not the string ends with "Hello". It does not, so it should print false.
+# The job of end_with is to ask whether or not the string ends with "Hello". 
+# The return value will print false.
 
 "Hello World".end_with?("rld")
 
 # The end_with method is called on the string object "Hello World".
-# The job of end_with is to ask whether or not the string ends with "rld". It does, so it will print true.
+# The job of end_with is to ask whether or not the string ends with "rld". 
+# The return value will print true.
 
 
 p 12.even?
 
 # The even method is called on the integer 12. 
-# The job of even is to ask whether or not the integer is even. It is, so it will print true
+# The job of even is to ask whether or not the integer is even. 
+# The return value will print true
 
 
 p 18.next
 
 # The next method is called on the integer 18. 
-# The job of next is to ask what the next number will be in the sequence. This will print 19.
+# The job of next is to ask what the next number will be in the sequence. 
+# The return value will print 19.
