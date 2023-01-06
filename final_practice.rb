@@ -40,9 +40,9 @@ p greet_person("Reilly")
 # and returns the square of that number
 
 def square(number)
- "#{number ** 2}"
+ number ** 2
 end 
- p square(3)
+ p square(7)
 
 # What is the return value of your method?
 
